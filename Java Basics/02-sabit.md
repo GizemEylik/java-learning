@@ -1,18 +1,18 @@
 
 
-Açıklamalar:
-    1. final Anahtar Kelimesi: final ifadesi, bu değişkenin değerinin daha sonra değiştirilemeyeceğini belirtir. Yukarıdaki örnekte PI sabiti 3.14159 olarak atanmıştır ve başka bir değer atanamaz.
-    2. Sabit İsimlendirme Konvansiyonu: Sabitler genellikle büyük harflerle yazılır ve kelimeler arasına alt çizgi (_) eklenir. Örneğin, MAX_VALUE, MIN_AGE gibi isimlendirmeler kullanılır.
-    3. Statik Sabitler (Static Constants): Sabitler genellikle static olarak tanımlanır. Bu, sabitin sınıf seviyesinde bir özellik olduğu ve her nesne için ayrı ayrı depolanmadığı anlamına gelir. static final kullanımıyla sabitler doğrudan sınıf üzerinden erişilebilir hale gelir (örneğin SabitOrnek.PI).
+Açıklamalar
+1- final Anahtar Kelimesi: final ifadesi, bu değişkenin değerinin daha sonra değiştirilemeyeceğini belirtir. Yukarıdaki örnekte PI sabiti 3.14159 olarak atanmıştır ve başka bir değer atanamaz.
+2- Sabit İsimlendirme Konvansiyonu: Sabitler genellikle büyük harflerle yazılır ve kelimeler arasına alt çizgi (_) eklenir. Örneğin, MAX_VALUE, MIN_AGE gibi isimlendirmeler kullanılır.
+3- Statik Sabitler (Static Constants): Sabitler genellikle static olarak tanımlanır. Bu, sabitin sınıf seviyesinde bir özellik olduğu ve her nesne için ayrı ayrı depolanmadığı anlamına gelir. static final kullanımıyla sabitler doğrudan sınıf üzerinden erişilebilir hale gelir (örneğin SabitOrnek.PI).
 
 Sabitlerin Tanımlanması
 Java'da bir değişkeni sabit yapmak için final anahtar kelimesi kullanılır. Sabitler, bir kez başlatıldığında (initialize) programın geri kalanında değiştirilemez. Bu da onların "sabit" (constant) olmasını sağlar.
 
 Sabit Tanımlarken Kullanılan Kurallar
-    • final anahtar kelimesi ile tanımlanırlar.
-    • Başlangıç değerleri mutlaka verilmelidir (ilk değer atama zorunluluğu).
-    • Sabit bir kez tanımlandıktan sonra değeri değiştirilemez.
-    • Genellikle büyük harfler ile adlandırılır.
+1- final anahtar kelimesi ile tanımlanırlar.
+2- Başlangıç değerleri mutlaka verilmelidir (ilk değer atama zorunluluğu).
+3- Sabit bir kez tanımlandıktan sonra değeri değiştirilemez.
+4- Genellikle büyük harfler ile adlandırılır.
 
 
 
